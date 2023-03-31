@@ -38,8 +38,6 @@ span {
   background-color: #FF9A4B;
 }
 
-
-
 .image {
   background-size: cover;
   background-position: bottom;
@@ -66,4 +64,25 @@ footer {
 
 .step3 {
   background-image: url("img/flow03.png");
+}
+
+@media screen and (max-width:768px) {
+  .item-container {
+    display: block;
+    width: 100%;
+  }
+  
+  .item {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px
+  }
+  
+  .item:last-child {
+    margin-bottom: 0;
+  }
+  
+  main {
+    width: 100%;
+  }
 }
